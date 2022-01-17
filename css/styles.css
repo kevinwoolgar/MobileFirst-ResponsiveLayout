@@ -42,6 +42,8 @@ h1 a, .top-nav a {
 }
 
 /* Media Queries*/
+
+/* 768px viewport */
 @media ( min-width: 768px) {
     .top-nav {
     margin-top: 0;
@@ -58,4 +60,18 @@ h1 a, .top-nav a {
    top-nav a {
        color: #fff;
    }
+}
+
+/* 1024px viewport */
+@media (min-width: 1024px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .top-nav,
+    .top-nav li {
+        width: initial;
+        margin-bottom: 0;
+    }
 }
