@@ -1,12 +1,29 @@
-/* Mobile CSS */
+/* Mobile First */
+/* General Styles */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+html, body {
+    height: 100%;
+}
 body {
     margin: 0 auto;
     max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto',sans-serif;
+    color: black;
+    background-color: #093145;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
 }
 /* Header Styling */
 ul {
@@ -43,6 +60,10 @@ h1 a, .top-nav a {
 .top-nav a {
     text-transform: uppercase;
 }
+/* Hides full nav menu in mobile view */
+.full {
+    display: none;
+}
 /* Portfolio Styling */
 .container {
     max-width: 1100px;
@@ -72,8 +93,16 @@ h1 a, .top-nav a {
 }.box-6 {
     background-color: #9a2617;
 }
-
-
+/* Footer Styling */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding: 0 20px;
+    height: 100px;
+    background-color: #107896;
+}
 /* Media Queries*/
 
 /* 768px viewport */
@@ -96,9 +125,16 @@ h1 a, .top-nav a {
    .container {
        display: flex;
        flex-wrap: wrap;
+   }
    .col {
        flex-basis: calc(50% - 20px);
    }
+   .top {
+       display: none;
+   }
+   .full {
+       display: inline-block;
+       margin-left: 20px;
    }
 }
 
