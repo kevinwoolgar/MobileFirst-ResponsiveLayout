@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
     font-family: 'Roboto',sans-serif;
     color: black;
-    background-color: #093145;
+    background-color: #fff;
 }
 ul {
     list-style: none;
@@ -29,11 +29,11 @@ ul {
 a {
     text-decoration: none;
 }
-nav {
+header {
     font-family: "Roboto", Arial, Verdana;
     font-weight: 400;
     letter-spacing: .05em;
-    background-color: #829356;
+    background-color: #c7c7c7;
     padding: 25px;
 }
 h1, .top-nav {
@@ -80,13 +80,17 @@ h1 a, .top-nav a {
 }
 .box-2 {
     background-color: #3c6478;
-}.box-3 {
+}
+.box-3 {
     background-color: #107896;
-}.box-4 {
+}
+.box-4 {
     background-color: #829356;
-}.box-5 {
+}
+.box-5 {
     background-color: #c2571a;
-}.box-6 {
+}
+.box-6 {
     background-color: #9a2617;
 }
 /* Footer Styling */
