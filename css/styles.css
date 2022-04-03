@@ -26,9 +26,7 @@ ul {
     list-style: none;
     padding-left: 0;
 }
-a {
-    text-decoration: none;
-}
+
 header {
     font-family: "Roboto", Arial, Verdana;
     font-weight: 400;
@@ -119,7 +117,7 @@ footer {
    .top-nav li:last-child {
        margin-right: 0;
    }
-   top-nav a {
+   .top-nav a {
        color: #fff;
    }
    .container {
