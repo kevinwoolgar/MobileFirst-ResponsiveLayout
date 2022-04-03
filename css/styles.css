@@ -21,6 +21,10 @@ a {
     text-transform: uppercase;
     color: white;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 /* Header Styling */
 ul {
     list-style: none;
