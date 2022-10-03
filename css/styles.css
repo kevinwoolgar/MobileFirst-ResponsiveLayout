@@ -36,7 +36,7 @@ header {
     font-family: "Roboto", Arial, Verdana;
     font-weight: 400;
     letter-spacing: .05em;
-    background-color: #c7c7c7;
+    background-color: #d9d9d9;
     padding: 25px;
 }
 h1, p, .top-nav, .portfolio-header {
@@ -78,6 +78,11 @@ h1 a, .top-nav a {
     padding: 10px;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
+}
+.portfolio-header {
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .col {
     margin: 10px;
