@@ -36,8 +36,8 @@ header {
     font-family: "Roboto", Arial, Verdana;
     font-weight: bold;
     font-size: 1em;
-    letter-spacing: .05em;
-    background-color: #d9d9d9;
+   /* letter-spacing: .05em;*/
+    background-color: #ecfbff;
     padding: 25px;
 }
 h1, p, .top-nav, .portfolio-header {
@@ -71,8 +71,8 @@ h1 a, .top-nav a {
 }
 .profile-intro {
     font-weight: 300;
-    font-size: 1.1em;
-    line-height: 1.3em;
+    font-size: 1em;
+    line-height: 1.4em;
 }
 /* Hides full nav menu in mobile view */
 .full {
@@ -86,21 +86,28 @@ h1 a, .top-nav a {
     font-family: 'Roboto', sans-serif;
 }
 .portfolio-header {
+    font-size: 1.2em;
     text-transform: uppercase;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
 }
 .col {
     margin: 10px;
     min-height: 250px;
-    color: white;
+    color: rgb(39, 39, 39);
     text-align: center;
     letter-spacing: 1px;
     padding-top: 5px;
 }
-.box-1 {
-    background-color: #107896;
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6 {
+    background-color: #d4f1f9;
 }
+/*
 .box-2 {
     background-color: #107896;
 }
@@ -115,12 +122,12 @@ h1 a, .top-nav a {
 }
 .box-6 {
     background-color: #107896;
-}
+} */
 .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #c7c7c7;
+    background-color: #ecfbff;
 }
 /* Footer Styling */
 footer {
@@ -130,7 +137,7 @@ footer {
     margin-top: auto;
     padding: 0 20px;
     height: 100px;
-    background-color: #c7c7c7;
+    background-color: #ecfbff;
 }
 /* Media Queries*/
 
