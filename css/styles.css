@@ -36,7 +36,6 @@ header {
     font-family: "Roboto", Arial, Verdana;
     font-weight: bold;
     font-size: 1em;
-   /* letter-spacing: .05em;*/
     background-color: #ecfbff;
     padding: 25px;
 }
@@ -99,6 +98,14 @@ h1 a, .top-nav a {
     letter-spacing: 1px;
     padding-top: 5px;
 }
+.col h2 {
+    font-size: 1.3em;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.col p {
+    padding: 10px;
+}
 .box-1,
 .box-2,
 .box-3,
@@ -106,28 +113,19 @@ h1 a, .top-nav a {
 .box-5,
 .box-6 {
     background-color: #d4f1f9;
+    margin-bottom: 20px;
 }
-/*
-.box-2 {
-    background-color: #107896;
-}
-.box-3 {
-    background-color: #107896;
-}
-.box-4 {
-    background-color: #107896;
-}
-.box-5 {
-    background-color: #107896;
-}
-.box-6 {
-    background-color: #107896;
-} */
 .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #ecfbff;
+}
+.contact-header {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 25px;
 }
 /* Footer Styling */
 footer {
