@@ -18,8 +18,8 @@ ul {
 }
 a {
     text-decoration: none;
-    text-transform: uppercase;
-    color: white;
+    color: black;
+    font-weight: bold;
 }
 img {
     max-width: 100%;
@@ -138,6 +138,9 @@ footer {
     padding: 0 20px;
     height: 100px;
     background-color: #ecfbff;
+}
+.top {
+    text-transform: uppercase;
 }
 /* Media Queries*/
 
