@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Roboto',sans-serif;
-    color: black;
+    color: rgb(56, 94, 170);
     background-color: #fff;
 }
 ul {
@@ -18,7 +18,7 @@ ul {
 }
 a {
     text-decoration: none;
-    color: black;
+    /*color: black;*/
     font-weight: bold;
 }
 img {
@@ -46,7 +46,7 @@ h1, p, .top-nav, .portfolio-header {
     width: 100%;
 }
 h1 a, .top-nav a {
-    color: #000;
+    color: rgb(3, 11, 22);
 }
 .top-nav {
     margin-top: 30px;
