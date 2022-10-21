@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Roboto',sans-serif;
-    color: rgb(56, 94, 170);
+    color: rgb(50, 84, 153);
     background-color: #fff;
 }
 ul {
@@ -18,8 +18,9 @@ ul {
 }
 a {
     text-decoration: none;
-    /*color: black;*/
     font-weight: bold;
+    color: rgb(20 57 108)
+
 }
 img {
     max-width: 100%;
@@ -34,7 +35,6 @@ ul {
 
 header {
     font-family: "Roboto", Arial, Verdana;
-    font-weight: bold;
     font-size: 1em;
     background-color: #ecfbff;
     padding: 25px;
@@ -45,8 +45,8 @@ h1, p, .top-nav, .portfolio-header {
 .top-nav, .top-nav li {
     width: 100%;
 }
-h1 a, .top-nav a {
-    color: rgb(3, 11, 22);
+h1 a, .top-nav a, .col {
+    color: rgb(20 57 108);
 }
 .top-nav {
     margin-top: 30px;
@@ -90,10 +90,13 @@ h1 a, .top-nav a {
     margin-top: 40px;
     margin-bottom: 45px;
 }
+.portfolio-header, 
+.contact-header {
+    color: rgb(20 57 108);
+}
 .col {
     margin: 10px;
     min-height: 250px;
-    color: rgb(39, 39, 39);
     text-align: center;
     letter-spacing: 1px;
     padding-top: 5px;
